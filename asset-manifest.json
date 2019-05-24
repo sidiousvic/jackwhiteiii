@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/jackwhiteiii/static/css/main.91a55d90.chunk.css",
+    "main.css": "/jackwhiteiii/static/css/main.9ef0651f.chunk.css",
     "main.js": "/jackwhiteiii/static/js/main.42031afd.chunk.js",
     "main.js.map": "/jackwhiteiii/static/js/main.42031afd.chunk.js.map",
     "runtime~main.js": "/jackwhiteiii/static/js/runtime~main.56aac1a7.js",
@@ -8,9 +8,9 @@
     "static/js/2.d6a534e5.chunk.js": "/jackwhiteiii/static/js/2.d6a534e5.chunk.js",
     "static/js/2.d6a534e5.chunk.js.map": "/jackwhiteiii/static/js/2.d6a534e5.chunk.js.map",
     "index.html": "/jackwhiteiii/index.html",
-    "precache-manifest.0464716f8c71203fdd3aefec79bcae04.js": "/jackwhiteiii/precache-manifest.0464716f8c71203fdd3aefec79bcae04.js",
+    "precache-manifest.0dd3aeef1ece83547759911e6e0aa238.js": "/jackwhiteiii/precache-manifest.0dd3aeef1ece83547759911e6e0aa238.js",
     "service-worker.js": "/jackwhiteiii/service-worker.js",
-    "static/css/main.91a55d90.chunk.css.map": "/jackwhiteiii/static/css/main.91a55d90.chunk.css.map",
+    "static/css/main.9ef0651f.chunk.css.map": "/jackwhiteiii/static/css/main.9ef0651f.chunk.css.map",
     "static/media/index.scss": "/jackwhiteiii/static/media/background.3a320e95.jpg"
   }
 }
