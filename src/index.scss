@@ -7,16 +7,16 @@ html {
 .index {
   background-color: blue;
   background-image: url(./background.jpg);
-  background-size: 70%;
-  background-position: center 14%;
+  background-size: contain;
+  background-position: center -100px;
   background-repeat: no-repeat;
-  background-blend-mode: color-dodge;
+  background-blend-mode: exclusion;
   background-attachment: fixed;
 }
 
 .header {
   height: 100vmin;
-  mix-blend-mode: normal;
+  mix-blend-mode: difference;
   display: grid;
   grid-template-columns: 12% 32% 12% 32% 12%;
   grid-template-rows: 20% 20% 20% 20% 20%;
@@ -94,15 +94,16 @@ li {
 
 .news-item-title {
   color: white;
-  // background-color: blue;
+  mix-blend-mode: difference;
   font-family: Futura;
   text-transform: uppercase;
   margin: 5% 2% 5%;
 }
 
 .news-item-content {
-  color: white;
   // background-color: blue;
+  color: yellow;
+  mix-blend-mode: difference;
   font-family: Arial Narrow;
   font-weight: 100;
   margin: 5% 2% 15%;
@@ -110,12 +111,19 @@ li {
 
 .news-item-image-wrap {
   background-color: blue;
-  border: solid 1px white;
 }
 
 .news-item-image {
   width: 100%;
   mix-blend-mode: lighten;
+  border: solid 1px white;
+}
+
+.news-item-image:hover {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  mix-blend-mode: difference;
 }
 
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
