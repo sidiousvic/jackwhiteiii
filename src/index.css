@@ -1,13 +1,1 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
+body,html{background-color:blue;margin:0}.index{background-color:blue;background-image:url(./background.jpg);background-size:70%;background-position:center 14%;background-repeat:no-repeat;background-blend-mode:color-dodge;background-attachment:fixed}.header{height:100vmin;mix-blend-mode:normal;display:grid;grid-template-columns:12% 32% 12% 32% 12%;grid-template-rows:20% 20% 20% 20% 20%}@font-face{font-family:"Gotham";src:local("Gotham"),url(GothamXNarrow-UltraItalic.ttf) format("truetype")}h1{color:white;font-family:Gotham}h1::before{background-color:black;height:100%;width:100%}.title{grid-area:2 / 2 / 4 / 5;grid-row:1 / 1;margin:14vmin auto;font-size:6vw}.nav{margin:30px 0;grid-area:5 / 2 / 4 / 5}ul{margin:10% 0;padding:0;display:flex;align-items:center;justify-content:space-around}li{list-style-type:none;margin:0 10px;font-size:3vw;color:white;font-family:Gotham;display:inline}.content{padding:50px 0;grid-column:2 / 5;display:flex}.news{margin:0 15%;-webkit-columns:2 200px;columns:2 200px;-webkit-column-gap:1rem;column-gap:1rem}.news .news-item{width:50%;color:white;margin:0 1rem 1rem 0;display:inline-block;width:100%}.news-item{width:100%;display:inline-block}.news-item-title{color:white;font-family:Futura;text-transform:uppercase;margin:5% 2% 5%}.news-item-content{color:white;font-family:Arial Narrow;font-weight:100;margin:5% 2% 15%}.news-item-image-wrap{background-color:blue;border:solid 1px white}.news-item-image{width:100%;mix-blend-mode:lighten}@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3){.news-item{width:90%}.content{padding:50px 0;grid-column:2 / 5;background-image:none;display:flex;background-color:transparent;background-blend-mode:normal}.index{background-color:blue;background-image:url(./background.jpg);background-size:cover;background-position:center 80%;background-repeat:no-repeat;background-blend-mode:lighten;background-attachment:fixed}}@media only screen and (max-width: 500px) and (max-height: 1000px){.news-item{width:90%}.content{padding:50px 0;grid-column:2 / 5;background-image:none;display:flex;background-color:transparent;background-blend-mode:normal}.index{background-color:blue;background-image:url(./background.jpg);background-size:cover;background-position:center 80%;background-repeat:no-repeat;background-blend-mode:lighten;background-attachment:fixed}h1{font-size:20vw;text-align:center}.title{grid-area:2 / 2 / 4 / 5;grid-row:1 / 1;margin:0 auto 14vmin auto;font-size:6vw}}
